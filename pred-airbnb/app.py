@@ -5,7 +5,6 @@ from sklearn.linear_model import LinearRegression
 
 def pred_airbnb():
     APP = Flask(__name__)
-    
     @APP.route('/')
     def test():
         return "Air BnB Optimal Price Predictor"
