@@ -1,1 +1,1 @@
-web: gunicorn pred_airbnb:APP
+web: gunicorn pred-airbnb:APP
