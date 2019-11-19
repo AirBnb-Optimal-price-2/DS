@@ -4,7 +4,7 @@
 
 # **AIR BNB Price Optimizer**
 
-A webb app for predicting price of an Air BNB dependant on user inputs.
+A webb app for predicting price of an Air BNB dependant on user inputs. Currently using a test Linear Regression model to test.
 
 ---
 # **Datasets**
@@ -28,15 +28,14 @@ Currently in test mode and only accepting the following:
 	"two": 2,
 	"three": 3,
 	"four": 4,
-	"five": 6
+	"five": 5
 }`
 
 #### **Expected test output**:
-`You have successfully extracted 6.0 items the JSON object.
-Three mutiplied by four is 12
-Using numpy test (3.0, 2)
-Linear Regression Prediction: [18.]
-1.0 <== score`
+`{
+    "price": 15.999999999999996,
+    "score": 1.0
+}`
 
 
 ----
