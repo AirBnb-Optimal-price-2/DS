@@ -1,4 +1,6 @@
-# DS
+<div align="center">
+  <img src="https://github.com/AirBnb-Optimal-price-2/DS/blob/master/header/airplane.jpg"><br>
+</div>
 
 # **AIR BNB Price Optimizer**
 
@@ -8,7 +10,7 @@ A webb app for predicting price of an Air BNB dependant on user inputs.
 # **Datasets**
 The data used was scraped on November 7, 2018 and contained detailed listing data, review data, and calendar data of current lisintgs in Berlin
 
-The data that was used for the model can be found [here](https://www.kaggle.com/brittabettendorf/berlin-airbnb-data#listings.csv).
+The data used for the model can be found [here](https://www.kaggle.com/brittabettendorf/berlin-airbnb-data#listings.csv).
 
 ---
 
