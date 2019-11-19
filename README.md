@@ -1,4 +1,6 @@
-# DS
+<div align="center">
+  <img src="https://github.com/AirBnb-Optimal-price-2/DS/blob/master/header/airplane.jpg"><br>
+</div>
 
 # **AIR BNB Price Optimizer**
 
