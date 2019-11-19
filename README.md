@@ -16,7 +16,7 @@ The data that was used for the model can be found [here](https://www.kaggle.com/
 
 [Homepage](https://pred-airbnb.herokuapp.com/): This is the landing page for the pred-airbnb web app.
 
-#### Using JSON:
+#### Using JSON: https://pred-airbnb.herokuapp.com/json
 Currently in test mode and only accepting the following:
 
 #### **input**: 
