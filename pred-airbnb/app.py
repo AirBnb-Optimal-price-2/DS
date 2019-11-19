@@ -20,7 +20,6 @@ def pred_airbnb():
         three = req_data['three']
         four = req_data['four']
         five = req_data['five']
-        mean = np.mean([one, two, five])
     
     # Example from sklearn LinearRegression() docs
         X = np.array([[one, one], [one, two], [two, two], [two, three]])
@@ -29,14 +28,5 @@ def pred_airbnb():
         score = reg.score(X, y)
         predict = reg.predict(np.array([[three, five]]))
 
-        return f"""You have successfully extracted {five/one} items the JSON object.
-        \nThree mutiplied by four is {three *four}\n 
-    
-        Using numpy test {mean, 2}
-    
-        \n Linear Regression Prediction: {predict}
-
-
-        {score} <== score
-        """
+        return {'price': predict[0], 'score': score}
     return APP
