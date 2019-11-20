@@ -12,6 +12,8 @@ The data used was scraped on November 7, 2018 and contained detailed listing dat
 
 The data used for the model can be found [here](https://www.kaggle.com/brittabettendorf/berlin-airbnb-data#listings.csv).
 
+The data that was cleaned and filtered can be found [here](https://github.com/AirBnb-Optimal-price-2/DS/tree/master/Data_analysis_visualisation)
+
 ---
 
 # **How to Use**
