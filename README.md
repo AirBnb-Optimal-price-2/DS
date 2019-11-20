@@ -24,17 +24,20 @@ Currently in test mode and only accepting the following:
 #### **input**: 
 
 `{
-	"one": 1,
-	"two": 2,
-	"three": 3,
-	"four": 4,
-	"five": 5
+   "neighborhood": 1,
+   "room-type": 15,
+   "bedroom": 3,
+   "bathroom": 2.5,
+   "minimun_nights": 3,
+   "description": "It's a 3 bedroom apartment"
 }`
 
 #### **Expected test output**:
 `{
-    "price": 15.999999999999996,
-    "score": 1.0
+    "hood": 1,
+    "lavatory": 2.5,
+    "live": 15,
+    "sleep": 3
 }`
 
 
