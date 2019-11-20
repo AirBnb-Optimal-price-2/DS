@@ -15,18 +15,22 @@ def pred_airbnb():
     def test_json():
         req_data = request.get_json()
 
-        one = req_data['one']
-        two = req_data['two']
-        three = req_data['three']
-        four = req_data['four']
-        five = req_data['five']
+        neighbor = req_data['neighborhood']
+        room = req_data['room-type']
+        bed = req_data['bedroom']
+        bath = req_data['bathroom']
+        min_night = req_data['minimum_nights']
+        descript = req_data['description']
     
     # Example from sklearn LinearRegression() docs
-        X = np.array([[one, one], [one, two], [two, two], [two, three]])
-        y = np.dot(X, np.array([one, two])) + three
-        reg = LinearRegression().fit(X, y)
-        score = reg.score(X, y)
-        predict = reg.predict(np.array([[three, five]]))
+       # X = np.array([[one, one], [one, two], [two, two], [two, three]])
+       # y = np.dot(X, np.array([one, two])) + three
+       # reg = LinearRegression().fit(X, y)
+       # score = reg.score(X, y)
+       # predict = reg.predict(np.array([[three, five]]))
 
-        return {'price': predict[0], 'score': score}
+        # return {'price': predict[0], 'score': score}
+        return {'hood': neighbor, 'live': room, 'sleep': bed, 'lavatory': bath}
+    
+
     return APP
