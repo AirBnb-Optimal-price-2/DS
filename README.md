@@ -47,8 +47,8 @@ Currently in test mode and only accepting the following:
 
 # **Dependencies**
 
--[Flask](https://flask.palletsprojects.com/en/1.1.x/#)
--[Green Unicorn](https://gunicorn.org/)
+- [Flask](https://flask.palletsprojects.com/en/1.1.x/#)
+- [Green Unicorn](https://gunicorn.org/)
 
 
 ---
