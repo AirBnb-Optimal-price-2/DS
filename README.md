@@ -4,7 +4,7 @@
 
 # **AIR BNB Price Optimizer**
 
-A webb app for predicting price of an Air BNB dependant on user inputs. Currently using a test Linear Regression model to test.
+A prediction model that helps you determine the best price to pay based on key features
 
 ---
 # **Datasets**
@@ -47,7 +47,9 @@ Currently in test mode and only accepting the following:
 
 # **Dependencies**
 
--[Flask](https://flask.palletsprojects.com/en/1.1.x/#)
+- [Flask](https://flask.palletsprojects.com/en/1.1.x/#)
+- [Green Unicorn](https://gunicorn.org/)
+
 
 ---
 
