@@ -4,13 +4,15 @@
 
 # **AIR BNB Price Optimizer**
 
-A webb app for predicting price of an Air BNB dependant on user inputs. Currently using a test Linear Regression model to test.
+A prediction model that helps you determine the best price to pay based on key features
 
 ---
 # **Datasets**
 The data used was scraped on November 7, 2018 and contained detailed listing data, review data, and calendar data of current lisintgs in Berlin
 
 The data used for the model can be found [here](https://www.kaggle.com/brittabettendorf/berlin-airbnb-data#listings.csv).
+
+The data that was cleaned and filtered can be found [here](https://github.com/AirBnb-Optimal-price-2/DS/tree/master/Data_analysis_visualisation)
 
 ---
 
@@ -45,7 +47,9 @@ Currently in test mode and only accepting the following:
 
 # **Dependencies**
 
--[Flask](https://flask.palletsprojects.com/en/1.1.x/#)
+- [Flask](https://flask.palletsprojects.com/en/1.1.x/#)
+- [Green Unicorn](https://gunicorn.org/)
+
 
 ---
 
