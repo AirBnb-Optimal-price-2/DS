@@ -1,5 +1,5 @@
 from flask import Flask, request
-from tensorflow_core.keras.models import load_model
+import tensorflow as tf
 
 
 def pred_airbnb():
@@ -29,8 +29,8 @@ def pred_airbnb():
         clean = req_data['cleaning_fee']
         
         z = [clean, accom, min_night, bed, bath, neighbor, room, ex_ppl, laptop, tv, wifi, family, smoke]
-        model1 = load_model('model.h5')
-        pred = model1.predict([z])
+        model1 = tf.keras.models.load_model('model.h5')
+        pred = model1.predict([[z]])
         # pred = model1.predict([clean, accom, min_night, bed, bath, neighbor, room, ex_ppl, laptop, tv, wifi, family, smoke])
         return {'optimal_price': round(float(pred[0][0]), 2)}
     
