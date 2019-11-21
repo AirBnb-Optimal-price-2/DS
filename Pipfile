@@ -7,10 +7,10 @@ verify_ssl = true
 
 [packages]
 flask = "*"
-numpy = "*"
 scikit-learn = "*"
+numpy = "*"
 gunicorn = "*"
-tensorflow = "==2.0.0b1"
+tensorflow = "==1.14.0"
 
 [requires]
 python_version = "3.7"
