@@ -11,6 +11,7 @@ flask-sqlalchemy = "*"
 numpy = "*"
 scikit-learn = "*"
 gunicorn = "*"
+tensorflow = "*"
 
 [requires]
 python_version = "3.7"

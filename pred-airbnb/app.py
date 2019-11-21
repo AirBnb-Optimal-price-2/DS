@@ -1,6 +1,5 @@
 from flask import Flask, request
-import numpy as np 
-from sklearn.linear_model import LinearRegression
+from tensorflow_core.keras.models import load_model
 
 
 def pred_airbnb():
@@ -16,21 +15,23 @@ def pred_airbnb():
         req_data = request.get_json()
 
         neighbor = req_data['neighborhood']
-        room = req_data['room-type']
-        bed = req_data['bedroom']
-        bath = req_data['bathroom']
+        accom = req_data['accomodates']
+        bed = req_data['bedrooms']
+        bath = req_data['bathrooms']
+        room = req_data['room_type']
+        wifi = req_data['wifi']
+        tv = req_data['tv']
+        laptop = req_data['Laptop_friendly_workspace']
+        family = req_data['family_kid_friendly']
+        smoke = req_data['smoking_allowed']
         min_night = req_data['minimum_nights']
-        descript = req_data['description']
+        ex_ppl = req_data['extra_people']
+        clean = req_data['cleaning_fee']
+        
+        z = [clean, accom, min_night, bed, bath, neighbor, room, ex_ppl, laptop, tv, wifi, family, smoke]
+        model1 = load_model('model.h5')
+        pred = model1.predict([z])
+        # pred = model1.predict([clean, accom, min_night, bed, bath, neighbor, room, ex_ppl, laptop, tv, wifi, family, smoke])
+        return {'optimal_price': round(float(pred[0][0]), 2)}
     
-    # Example from sklearn LinearRegression() docs
-       # X = np.array([[one, one], [one, two], [two, two], [two, three]])
-       # y = np.dot(X, np.array([one, two])) + three
-       # reg = LinearRegression().fit(X, y)
-       # score = reg.score(X, y)
-       # predict = reg.predict(np.array([[three, five]]))
-
-        # return {'price': predict[0], 'score': score}
-        return {'hood': neighbor, 'live': room, 'sleep': bed, 'lavatory': bath}
-    
-
     return APP
