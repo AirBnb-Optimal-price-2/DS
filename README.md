@@ -51,6 +51,16 @@ Find our Flask API [here](https://github.com/AirBnb-Optimal-price-2/DS/tree/mast
 
 ----
 
+# **Results**
+
+Our mean baseline for our y (target) was $67.14
+ - This helps us gauge how well our model is doing by looking at individual predictions and comparing the actual, mean baseline, and the predicted to find out how well our model did on a case by case basis
+
+Our model had a MAE of 19.32
+- This tells us that overall our model will predict a price that is on average $19.32 around the actual price.
+
+---
+
 # **Dependencies**
 
 - [Flask](https://flask.palletsprojects.com/en/1.1.x/#)
