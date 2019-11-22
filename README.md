@@ -1,14 +1,11 @@
+# **AIR BNB Price Optimizer**
+
+A prediction model that helps you determine the best price to pay based on key features. Find our model [here](https://github.com/AirBnb-Optimal-price-2/Models/blob/master/Models/Notebooks/MLP.ipynb)
+
 <div align="center">
   <img src="https://github.com/AirBnb-Optimal-price-2/DS/blob/master/header/heatmap.png"><br>
 </div>
 
-<div align="center">
-  <img src="https://github.com/AirBnb-Optimal-price-2/DS/blob/master/header/location:price.png"><br>
-</div>
-
-# **AIR BNB Price Optimizer**
-
-A prediction model that helps you determine the best price to pay based on key features
 
 ---
 # **Datasets**
@@ -16,12 +13,13 @@ The data used was scraped on November 7, 2018 and contained detailed listing dat
 
 The data used for the model can be found [here](https://www.kaggle.com/brittabettendorf/berlin-airbnb-data#listings.csv).
 
-The data that was cleaned and filtered can be found [here](https://github.com/AirBnb-Optimal-price-2/DS/tree/master/Data_analysis_visualisation)
+The data that was cleaned and filtered can be found [here](https://github.com/AirBnb-Optimal-price-2/Models/tree/master/Models)
 
 ---
 
 # **How to Use**
 
+Find our Flask API [here](https://github.com/AirBnb-Optimal-price-2/DS/tree/master/pred-airbnb)
 [Homepage](https://pred-airbnb.herokuapp.com/): This is the landing page for the pred-airbnb web app.
 
 #### Using JSON: https://pred-airbnb.herokuapp.com/json
@@ -66,3 +64,11 @@ The data that was cleaned and filtered can be found [here](https://github.com/Ai
 [MIT License](https://opensource.org/licenses/MIT)
 
 ---
+
+# **Additional Visuals**
+
+Find visuals like these and many others that help explain the data in meaningful ways [here](https://github.com/AirBnb-Optimal-price-2/DS/blob/master/Data_analysis_visualisation/Unit3_build_airbnb_visualisation.ipynb)
+
+<div align="center">
+  <img src="https://github.com/AirBnb-Optimal-price-2/DS/blob/master/header/location:price.png"><br>
+</div>
