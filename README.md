@@ -52,7 +52,7 @@ Find our Flask API [here](https://github.com/AirBnb-Optimal-price-2/DS/tree/mast
     "optimal_price": 74.08
 }
 ```
-
+ Find our schema [here](https://github.com/AirBnb-Optimal-price-2/Back-End)
 
 ----
 
