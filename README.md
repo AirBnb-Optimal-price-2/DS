@@ -28,7 +28,8 @@ Find our Flask API [here](https://github.com/AirBnb-Optimal-price-2/DS/tree/mast
 
 #### **input**: 
 
-`{
+```
+{
   "cleaning_fee": 30.0,
   "accomodates": 3,
   "minimum_nights": 4,
@@ -42,12 +43,15 @@ Find our Flask API [here](https://github.com/AirBnb-Optimal-price-2/DS/tree/mast
   "wifi": 1,
   "family_kid_friendly": 1,
   "smoking_allowed": 0
-}`
+}
+```
 
 #### **Expected test output**:
-`{
+```
+{
     "optimal_price": 74.08
-}`
+}
+```
 
 
 ----
