@@ -85,7 +85,7 @@ Our model had a MAE of 19.32
 
 Find visuals like these and many others that help explain the data in meaningful ways [here](https://github.com/AirBnb-Optimal-price-2/DS/blob/master/Data_analysis_visualisation/Unit3_build_airbnb_visualisation.ipynb)
 
-<p align="center"> A look at the cost of each AirBnB in Berlin </p>
+<p align="center"> **A look at the cost of each AirBnB in Berlin** </p>
 
 <div align="center">
   <img src="https://github.com/AirBnb-Optimal-price-2/DS/blob/master/header/location:price.png"><br>
