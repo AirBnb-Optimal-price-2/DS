@@ -21,7 +21,6 @@ The data that was cleaned and filtered can be found [here](https://github.com/Ai
 [Homepage](https://pred-airbnb.herokuapp.com/): This is the landing page for the pred-airbnb web app.
 
 #### Using JSON: https://pred-airbnb.herokuapp.com/json
-Currently in test mode and only accepting the following:
 
 #### **input**: 
 
