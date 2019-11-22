@@ -1,7 +1,7 @@
 # **AIR BNB Price Optimizer**
 By: Gabriel Flomo (DS7), Bhavani Rajan (DS8), & Mikio Harman (DS8)
 
-### A prediction model that helps you determine the best price to pay based on key features. Find our model [here](https://github.com/AirBnb-Optimal-price-2/Models/blob/master/Models/Notebooks/MLP.ipynb)
+<p align="center"> <strong>A prediction model that helps you determine the best price to pay based on key features. Find our model [here](https://github.com/AirBnb-Optimal-price-2/Models/blob/master/Models/Notebooks/MLP.ipynb)</strong> </p>
 
 <div align="center">
   <img src="https://github.com/AirBnb-Optimal-price-2/DS/blob/master/header/heatmap.png"><br>
@@ -83,10 +83,10 @@ Our model had a MAE of 19.32
 
 # **Additional Visuals**
 
-Find visuals like these and many others that help explain the data in meaningful ways [here](https://github.com/AirBnb-Optimal-price-2/DS/blob/master/Data_analysis_visualisation/Unit3_build_airbnb_visualisation.ipynb)
-
 <p align="center"> <strong>A look at the cost of each AirBnB in Berlin</strong> </p>
 
 <div align="center">
   <img src="https://github.com/AirBnb-Optimal-price-2/DS/blob/master/header/location:price.png"><br>
 </div>
+
+Find visuals like these and many others that help explain the data in meaningful ways [here](https://github.com/AirBnb-Optimal-price-2/DS/blob/master/Data_analysis_visualisation/Unit3_build_airbnb_visualisation.ipynb)
