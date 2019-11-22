@@ -1,5 +1,6 @@
 <div align="center">
-  <img src="https://github.com/AirBnb-Optimal-price-2/DS/blob/master/header/airplane.jpg"><br>
+  <img src="https://github.com/AirBnb-Optimal-price-2/DS/blob/master/header/heatmap.png"><br>
+  <img src="ttps://github.com/AirBnb-Optimal-price-2/DS/blob/master/header/location:price.png"><br>
 </div>
 
 # **AIR BNB Price Optimizer**
