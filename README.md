@@ -1,4 +1,5 @@
 # **AIR BNB Price Optimizer**
+By: Gabriel Flomo (DS7), Bhavani Rajan (DS8), & Mikio Harman (DS8)
 
 A prediction model that helps you determine the best price to pay based on key features. Find our model [here](https://github.com/AirBnb-Optimal-price-2/Models/blob/master/Models/Notebooks/MLP.ipynb)
 
