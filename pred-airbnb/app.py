@@ -31,7 +31,6 @@ def pred_airbnb():
         z = [clean, accom, min_night, bed, bath, neighbor, room, ex_ppl, laptop, tv, wifi, family, smoke]
         model1 = tf.keras.models.load_model('model.h5')
         pred = model1.predict([[z]])
-        # pred = model1.predict([clean, accom, min_night, bed, bath, neighbor, room, ex_ppl, laptop, tv, wifi, family, smoke])
         return {'optimal_price': round(float(pred[0][0]), 2)}
     
     return APP
