@@ -20,6 +20,7 @@ The data that was cleaned and filtered can be found [here](https://github.com/Ai
 # **How to Use**
 
 Find our Flask API [here](https://github.com/AirBnb-Optimal-price-2/DS/tree/master/pred-airbnb)
+
 [Homepage](https://pred-airbnb.herokuapp.com/): This is the landing page for the pred-airbnb web app.
 
 #### Using JSON: https://pred-airbnb.herokuapp.com/json
