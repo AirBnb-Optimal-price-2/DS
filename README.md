@@ -21,25 +21,28 @@ The data that was cleaned and filtered can be found [here](https://github.com/Ai
 [Homepage](https://pred-airbnb.herokuapp.com/): This is the landing page for the pred-airbnb web app.
 
 #### Using JSON: https://pred-airbnb.herokuapp.com/json
-Currently in test mode and only accepting the following:
 
 #### **input**: 
 
 `{
-   "neighborhood": 1,
-   "room-type": 15,
-   "bedroom": 3,
-   "bathroom": 2.5,
-   "minimun_nights": 3,
-   "description": "It's a 3 bedroom apartment"
+  "cleaning_fee": 30.0,
+  "accomodates": 3,
+  "minimum_nights": 4,
+  "bedrooms": 1,
+  "bathrooms": 1,
+  "neighborhood": 1,
+  "room_type": 15,
+  "extra_people": 28,
+  "Laptop_friendly_workspace": 1,
+  "tv": 1,
+  "wifi": 1,
+  "family_kid_friendly": 1,
+  "smoking_allowed": 0
 }`
 
 #### **Expected test output**:
 `{
-    "hood": 1,
-    "lavatory": 2.5,
-    "live": 15,
-    "sleep": 3
+    "optimal_price": 74.08
 }`
 
 
@@ -49,6 +52,7 @@ Currently in test mode and only accepting the following:
 
 - [Flask](https://flask.palletsprojects.com/en/1.1.x/#)
 - [Green Unicorn](https://gunicorn.org/)
+- [Tensorflow](https://www.tensorflow.org/api_docs/python/tf)
 
 
 ---
