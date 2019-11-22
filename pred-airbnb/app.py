@@ -1,7 +1,9 @@
+# API and model imports
 from flask import Flask, request
 import tensorflow as tf
 
 
+# Make the app factory
 def pred_airbnb():
     APP = Flask(__name__)
     @APP.route('/')
@@ -9,7 +11,7 @@ def pred_airbnb():
         return "Air BnB Optimal Price Predictor"
 
 
-# Put model in here. Unwrap objects here. Add and commit to DB here is needed
+# Recieve JSON, unpack, predict, and return JSON 
     @APP.route('/json', methods=['POST'])
     def test_json():
         req_data = request.get_json()
